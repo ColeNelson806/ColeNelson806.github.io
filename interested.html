@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Email Signup</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="script" href="script.js" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Cole's Minecraft Plugins</h1>
+      <nav>
+        <a class="headlinks" href="/">Home</a>
+        <a class="headlinks" href="hordeEvent.html">Horde Event</a>
+        <a class="headlinks" href="Interested.html">Sign up for Emails</a>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <form method="get" class="form">
+        <div class="form">
+          <label for="first-name">Enter your first name:</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Billy"
+            required
+          />
+        </div>
+        <div class="form">
+          <label for="last-name">Enter your last name:</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Bob"
+            required
+          />
+        </div>
+        <div class="form">
+          <label for="email">Enter your email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="BillyBob@gmail.com"
+            required
+          />
+        </div>
+        <div class="form">
+          <input
+            type="checkbox"
+            name="websiteupdates"
+            id="webupdates"
+            required
+            checked
+          />
+          <label for="webupdates">Receive emails about website changes</label>
+        </div>
+        <div class="form">
+          <input
+            type="checkbox"
+            name="pluginupdates"
+            id="plugupdates"
+            required
+            checked
+          />
+          <label for="plugupdates">Receive emails when plugins update</label>
+        </div>
+        <div class="form">
+          <br />
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
