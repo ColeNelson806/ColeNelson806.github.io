@@ -3,6 +3,6 @@ window.onload = function () {
   btn.addEventListener("click", function (event) {
     event.preventDefault();
     window.alert("Thank you for signing up!");
-    window.location.href = "https://colenelson806.github.io/";
+    window.location.href = "https://colenelson806.github.io/MinecraftPluginProject/index.html";
   });
 };
